@@ -1,0 +1,41 @@
+{
+  "name": "hyper-cloud",
+  "version": "1.0.0",
+  "description": "Hyper Cloud app for system control version",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armcoding1/hyper-cloud.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "passport",
+    "session",
+    "google",
+    "cloud",
+    "firebase",
+    "mongodb"
+  ],
+  "author": "Hyper Corporation",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armcoding1/hyper-cloud/issues"
+  },
+  "homepage": "https://github.com/armcoding1/hyper-cloud#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "winston": "^3.13.0"
+  }
+}
